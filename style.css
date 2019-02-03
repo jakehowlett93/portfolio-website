@@ -6,18 +6,22 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    font-size: 16px;
+}
+
 .name {
     padding-top: 3pc;
     padding-bottom: 2pc;
 }
 
 .medium-image {
-    width: 250px;
+    width: 375px;
 }
 
 .row {
     padding-bottom: 2pc;
-    padding-left: 15pc;
+    padding-left: 5pc;
 }
 
 #contact-row {
@@ -36,6 +40,12 @@ h2 {
     }
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 .seperator-line {
     height: 4px;
     background-color:lightgray;
@@ -46,3 +56,10 @@ h2 {
     padding-bottom: 2pc;
     padding-top: 2pc;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
