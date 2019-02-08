@@ -7,88 +7,82 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1 class="text-center name">Jake Howlett</h1>
-      <hr class="seperator-line">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jake Howlett</a>
+        </div>
+        <div class="collapse navbar-collapse" id="MyNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a hred="#">Home</a></li>
+            <li><a href="javascript: document.getElementsByTagName('h2')[1].scrollIntoView(false);">About</a></li>
+            <li><a href="javascript: document.getElementsByTagName('h2')[3].scrollIntoView();">Projects</a></li>
+            <li><a href="javascript: document.body.scrollIntoView(false);">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center">
+        <h2>Jake Howlett</h2>
+      </div>
+
+    <div class="container text-center">
+      <h2>Personal Statement</h2>
+      <p>text text text text text text text text text text text text text text text text text text text text
+          text text text text text text text text text text text text text text text
+      </p>
     </div>
-    <div class="container" style="max-width: 1000px">
-      <h2 class="text-center">Personal Statement</h2>
-      <p class="text-center">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
-        placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-      <h2 class="text-center">Education</h2>
-      <p class="text-center">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
-        placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</p>    
+
+    <div class="container text-center">
+      <h2>Education</h2>
+      <p>text text text text text text text text text text text text text text text text text text text text
+          text text text text text text text text text text text text text text text
+      </p>
     </div>
-    <h2 class="text-center" id="projects-header">Projects</h2>
-    <div class="container-fluid">
+
+    <div class="container text-center">
+      <h2 class="spacing">Projects</h2>
       <div class="row">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-sm-3">
           <h3>Space Invaders (Python)</h3>
-          <p>place holder paragraph should be text next to an image here <a href="space-invaders.html">More</a></p>
-          <p><a href="https://github.com/jakehowlett93/pygame_games/blob/master/space_invaders.py">GitHub link</a></p>
+          <p>Short description <a href="#">More</a></p>
         </div>
-        <div class="col-md-3 project-image">
-          <img src="space-invaders-image.png" class="medium-image">
+        <div class="col-sm-3">
+          <img class="img-responsive center-block" src="space-invaders-image.png">
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-sm-3">
           <h3>Blackjack (Python)</h3>
-          <p>place holder paragraph should be text next to an image here <a href="blackjack.html">More</a></p>
-          <p><a href="https://github.com/jakehowlett93/small-programs/blob/master/blackjackgame.py">GitHub link</a></p>
+          <p>Short description <a href="#">More</a></p>
         </div>
-        <div class="col-md-3">
-          <img src="blackjack-image.png" class="medium-image">
-        </div>              
+        <div class="col-sm-3">
+          <img class="img-responsive center-block" src="blackjack-image.png">
+        </div>
       </div>
     </div>
-    <div class="container-fluid">
+
+    <div class="container text-center">
+      <h2>Contact</h2>
       <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <h3>project title</h3>
-          <p>place holder paragraph should be text next to an image here</p>
+        <div class="col-sm-4">
+          <p>Email:</p>
         </div>
-        <div class="col-md-3 project-image">
-          <img src="https://bit.ly/fcc-running-cats" class="medium-image">
+        <div class="col-sm-4">
+          <p>LinkedIn:</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h3>project title</h3>
-          <p>place holder paragraph should be text next to an image here</p>
+        <div class="col-sm-4">
+          <p>GitHub:</p>
         </div>
-        <div class="col-md-3">
-          <img src="https://bit.ly/fcc-running-cats" class="medium-image">
-        </div>              
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <h3>project title</h3>
-          <p>place holder paragraph should be text next to an image here</p>
-        </div>
-        <div class="col-md-3 project-image">
-          <img src="https://bit.ly/fcc-running-cats" class="medium-image">
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h3>project title</h3>
-          <p>place holder paragraph should be text next to an image here</p>
-        </div>
-        <div class="col-md-3">
-          <img src="https://bit.ly/fcc-running-cats" class="medium-image">
-        </div>              
-      </div>
-    </div>
-    <h2 class="text-center">Contact Information</h2>
-    <div class="row" id="contact-row">
-      <div class="col-md-3">
-        <p>linkedIn: <a href="https://linkedin.com/in/jake-howlett-b48a66a6">Jake Howlett</a></p>
-      </div>
-      <div class="col-md-3">
-        <p>GitHub: <a href="https://github.com/jakehowlett93">Jakehowlett93</a></p>
-      </div>
-      <div class="col-md-3">
-        <p>Email</p>
       </div>
     </div>
   </body>
-</html>
+  </html>

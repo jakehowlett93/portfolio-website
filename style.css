@@ -1,83 +1,11 @@
-.h1, h1 {
-    font-size: 75px;
+body {
+    padding-top: 70px;
 }
 
-h2 {
-    font-size: 30px;
+.container {
+    margin-bottom: 1pc;
 }
 
-p {
-    font-size: 20px;
-}
-
-.name {
-    padding-top: 3pc;
-    padding-bottom: 2pc;
-}
-
-.medium-image {
-    width: 375px;
-    height: 300px;
-}
-
-
-.row {
-    padding-bottom: 2pc;
-    padding-left: 5pc;
-}
-
-#contact-row {
-    padding-left: 35pc;
-}
-
-@media (max-width: 991px) {
-    #contact-row {
-        padding-left: 24pc;
-    }
-    .project-title {
-        padding-left: 10pc;
-    }
-    .project-image {
-        padding-left: 6pc;
-        padding-bottom: 2pc;
-    }
-}
-
-@media (max-width: 768px) {
-    p {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    p  {
-           font-size: 20px
-       }
-}
-
-.seperator-line {
-    height: 4px;
-    background-color:lightgray;
-    color: lightgray;
-}
-
-#projects-header {
-    padding-bottom: 2pc;
-    padding-top: 2pc;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-.center-title {
-    padding-right: 5pc;
-  }
-
-#blackjack-page-image {
-    height: 500px;
-    width: 300px;
+.spacing {
+    padding-bottom: 1pc;
 }
