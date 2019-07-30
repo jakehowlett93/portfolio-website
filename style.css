@@ -1,5 +1,21 @@
 body {
     padding-top: 70px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, Serif;
+}
+
+footer {
+    font-size: 16px;
+    font-family: "Times New Roman", Times, Serif;
+}
+
+pre {
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, Serif;
+    white-space: pre-wrap;
+    word-break: keep-all;
 }
 
 .container {
@@ -9,3 +25,12 @@ body {
 .spacing {
     padding-bottom: 1pc;
 }
+
+.medium-image {
+    max
+}
+
+
+
+
+

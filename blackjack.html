@@ -7,22 +7,58 @@
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h2><a href="index.html">Home</a></h2>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Jake Howlett</a>
         </div>
-        <div class="col">
-          <h1 class="text-center center-title">Blackjack</h1>
-          <hr class="seperator-line">
+        <div class="collapse navbar-collapse" id="MyNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="container" style="max-width: 1000px">
-      <p class="text-center">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
-        placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
-      <img src="blackjack-image2.png" class="center" id="blackjack-page-image">
-    </div>
+    </nav>
+
+    <main>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center center-title">Blackjack</h1>
+            <hr class="seperator-line">
+          </div>
+        </div>
+      </section>
+      <section class="container text-left">
+        <p>placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
+          placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text. <a href="https://github.com/jakehowlett93/small-programs/blob/master/blackjackgame.py" target="_blank">To view the code click here.</a> </p>
+        <img src="blackjack-image2.png" class="center-block" id="blackjack-page-image">
+        </section>
+    </main>
+
+    <footer class="container text-center" id="contact">
+        <h2>Contact</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Email: jake.howlett93@gmail.com</p>
+          </div>
+          <div class="col-sm-4">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jake-howlett-b48a66a6/" target="_blank">Jake Howlett</a></p>
+          </div>
+          <div class="col-sm-4">
+            <p>GitHub: <a href="https://github.com/jakehowlett93" target="_blank"></a>Jakehowlett93</p>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
