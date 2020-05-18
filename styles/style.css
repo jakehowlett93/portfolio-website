@@ -31,6 +31,13 @@ p{
     padding-bottom: 1pc;
 }
 
+.pokedex-img {
+    max-height: 156px;
+}
+
+#second-row {
+    padding-top: 30px;
+}
 
 
 
