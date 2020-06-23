@@ -1,0 +1,18 @@
+.logo {
+    width: 200px
+}
+
+.nav-span-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-span {
+    
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
