@@ -5,7 +5,7 @@ const MovieSearchCard = () => {
         <div className="card">
             <h3 className="card-title">OMDb searcher</h3>
             <p className="card-subtitle">React Redux(thunk)</p>
-            <img className="card-image" src={ require("../../../assets/current-project-thumbnail.png") } alt="current Project" />
+            <img className="card-image" src={ require("../../../assets/movie-search-thumbnail.png") } alt="Movie search project" />
         </div>
     );
 };

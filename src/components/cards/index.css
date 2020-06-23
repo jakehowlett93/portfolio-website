@@ -6,7 +6,7 @@
 
 .card {
     border-radius: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-top: 20px;
     background-color: white;
     color: rgb(56, 68, 75);
@@ -22,8 +22,10 @@
 }
 
 .card-image {
-    width: 80vw;
+    width: 200px;
     height: 200px;
     border-radius: 25px;
+    border: solid;
+    border-width: 1px 0 0 0;
 }
 
