@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
-    background-color: rgb(56, 68, 75);
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgba(109, 172, 153, 0.705);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 2% 5% 0% 5%;
 }

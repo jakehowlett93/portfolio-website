@@ -5,24 +5,24 @@ import './index.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header-container">
             <img className="logo" src={ require("../../assets/logo.png") } alt="Jake Howlett" />
             <nav className="nav-span-container">
-                <span className="nav-span">
-                    <Link to="/" className="link">
+                <div className="nav-span">
+                    <Link to="/" className="header-link">
                         Home
                     </Link>
-                </span>
-                <span className="nav-span">
-                    <Link to="/cv" className="link">
+                </div>
+                <div className="nav-span">
+                    <Link to="/cv" className="header-link">
                         CV
                     </Link>
-                </span>
-                <span className="nav-span">
-                    <Link to="/contact" className="link">
+                </div>
+                <div className="nav-span">
+                    <Link to="/contact" className="header-link">
                         Contact
                     </Link>
-                </span>
+                </div>
             </nav>
         </div>
     );
