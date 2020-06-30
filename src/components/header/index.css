@@ -8,6 +8,7 @@
     border-radius: 25px;
     display: block;
     margin: 0 auto;
+    height: 100px;
 }
 
 .nav-span-container {
@@ -43,6 +44,6 @@
     }
 
     .nav-span {
-        padding: 10px 0 10px 50px;
+        padding: 0 0 10px 50px;
     }
 }
