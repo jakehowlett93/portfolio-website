@@ -9,7 +9,8 @@ const Pokedex = () => {
         <main className="project-container">
                 <h1 className="project-title">Pokedex</h1>
                 <p className="project-description">
-                    This is a personal project that I completed to get some practice with making API requests using the async await syntax. I chose to use
+                    This is a personal project that I completed to get some practice with making API requests using the async await syntax. It allows users to 
+                    search through a database of pokemon using an API and then displays information about the searched pokemon to the user. I chose to use
                     the pokeAPI to practice as it is free to use and well documented.
                 </p>
                 <p className="project-description">
@@ -17,7 +18,7 @@ const Pokedex = () => {
                     functions to make api requests and then display the information to the user.
                 </p>    
                 <p className="project-description">
-                    I enjoyed the challenge of learning about asynchronous code and the concept of promises, aswell as testing such code with the jest library.
+                    I enjoyed the challenge of learning about asynchronous code and the concept of promises, aswell as testing async code with the jest library.
                 </p>
                 <a className="project-link" href="https://jake-pokedex.netlify.app/">Visit the site</a>
                 <a className="project-link" href="https://github.com/jakehowlett93/pokedex-pokeapi">Visit the repository.</a>

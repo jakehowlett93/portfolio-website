@@ -9,7 +9,9 @@ const SmashDown = () => {
         <main className="project-container">
                 <h1 className="project-title">Smash Down</h1>
                 <p className="project-description">
-                    The client wanted a webpage that allowed them to track characters and scores for a game that they play. I decided to use a layout
+                    The client wanted a webpage that allowed them to track characters and scores for a game that they play. The game is called Super
+                    Smash Brothers Ultimate and it has a game mode called smashdown that is available for local co-op but not online co-op. The client wanted
+                    a website that let them track what characters had already been selected and by who and what the overall score is. I decided to use a layout
                     similar to the one found in the game.
                 </p>
                 <p className="project-description">
@@ -23,7 +25,7 @@ const SmashDown = () => {
                 </p>
                 <p className="project-description">
                     I wrote a suit of tests for the code using the Jest library, mainly running functions on mock 
-                    elements to check the correct actions are carried out on them. This project also used NPM, Webpack, Babel, Prettier and ESLint.
+                    elements to check the correct actions are carried out. This project also used NPM, Webpack, Babel, Prettier and ESLint.
                 </p>
                 <a className="project-link" href="https://smash-down.neocities.org/">Visit the site</a>
                 <a className="project-link" href="https://github.com/jakehowlett93/smash-down">Visit the repository.</a>

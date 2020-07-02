@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Cards from '../components/cards';
 import Header from '../components/header';
+import Contact from '../components/contact';
 import CurrentProject from './projects/currentProject';
 import MovieSearch from './projects/movieSearch';
 import Pokedex from './projects/pokedex';
@@ -18,6 +19,7 @@ const App = () => {
                 </nav>
                 <main className="content">
                     <Route path="/" exact component={Cards} />
+                    <Route path="/contact" exact component={Contact} />
                     <Route path="/current-project" exact component={CurrentProject} />
                     <Route path="/movie-search" exact component={MovieSearch} />
                     <Route path="/pokedex" exact component={Pokedex} />

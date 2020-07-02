@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './index.css';
+import Pdf from '../../assets/jake-howlett-CV.pdf'
 
 const Header = () => {
     return (
@@ -14,9 +15,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="nav-span">
-                    <Link to="/cv" className="header-link">
-                        CV
-                    </Link>
+                    <a className="header-link" href={Pdf}>CV</a>
                 </div>
                 <div className="nav-span">
                     <Link to="/contact" className="header-link">
