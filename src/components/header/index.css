@@ -6,9 +6,15 @@
 .logo {
     width: 200px;
     border-radius: 25px;
-    display: block;
-    margin: 0 auto;
+    text-align: center;
     height: 100px;
+    background-color: rgb(64, 179, 162);
+}
+
+.logo-text {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .nav-span-container {

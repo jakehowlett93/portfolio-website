@@ -7,7 +7,11 @@ import Pdf from '../../assets/jake-howlett-CV.pdf'
 const Header = () => {
     return (
         <div className="header-container">
-            <img className="logo" src={ require("../../assets/logo.png") } alt="Jake Howlett" />
+            <div className="logo">
+                <div className="logo-text">
+                    Jake <br/> Howlett
+                </div>
+            </div>
             <nav className="nav-span-container">
                 <div className="nav-span">
                     <Link to="/" className="header-link">
