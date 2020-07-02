@@ -1,0 +1,49 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav-span-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(255, 125, 95)
+}
+
+.header-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px
+}
+
+@media only screen and (min-width: 500px) {
+    .header-container {
+        flex-direction: row;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .nav-span-container {
+        border: none;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 0px;
+        align-content: flex-start; 
+    }
+
+    .nav-span {
+        padding: 0 0 10px 50px;
+    }
+}

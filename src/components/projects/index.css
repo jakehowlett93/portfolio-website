@@ -1,0 +1,38 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.project-description {
+    margin-bottom: 0px;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.project-image {
+    max-height: 500px;
+    margin-top: 30px;
+}
+
+#pokedex-image {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+@media only screen and (min-width: 1000px) {
+}
