@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 import Cards from '../components/cards';
 import Header from '../components/header';
@@ -13,7 +13,7 @@ import './app.css';
 const App = () => {
     return (
         <div className="container">
-            <BrowserRouter>
+            <HashRouter basename="/">
                 <nav className="header">
                     <Header />
                 </nav>
@@ -25,7 +25,7 @@ const App = () => {
                     <Route path="/pokedex" exact component={Pokedex} />
                     <Route path="/smash-down" exact component={SmashDown} />
                 </main>  
-            </BrowserRouter>
+            </HashRouter>
           
         </div>
     );
