@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7af1e3c681d62100abd6cd739dc2b773",
+    "revision": "8009ea82c5374c049747919d7b1d5605",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "fbb5f52e250775860c6f",
+    "revision": "317cbc04ac19721183f5",
     "url": "/portfolio-website/static/css/main.ffe33b1a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.14e744ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbb5f52e250775860c6f",
-    "url": "/portfolio-website/static/js/main.8fd7df63.chunk.js"
+    "revision": "317cbc04ac19721183f5",
+    "url": "/portfolio-website/static/js/main.c6d4d26f.chunk.js"
   },
   {
     "revision": "7b26d152d29ab88b2302",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/current-project-thumbnail.87a88afd.png"
   },
   {
-    "revision": "2cc588cb23d4b7be142afa4ca2a15468",
-    "url": "/portfolio-website/static/media/jake-howlett-CV.2cc588cb.pdf"
+    "revision": "1c7702d6f22c709d337f4e31f0f06a74",
+    "url": "/portfolio-website/static/media/jake-howlett-CV.1c7702d6.pdf"
   },
   {
     "revision": "14bac3ddfc16d09c69649617cddaf0d6",
