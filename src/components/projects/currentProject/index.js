@@ -3,10 +3,10 @@ import '../index.css';
 
 
 
-const MovieSearch = () => {
+const CurrentProject = () => {
     return (
         <main className="project-container">
-                <h1 className="project-title">Draw Stuff</h1>
+                <h1 className="project-title">Draw Stuff / CS50</h1>
                 <p className="project-description">
                     I have been working as part of a two person team to develop a web app, it will be an online game similar to Telestrations. 
                 </p>
@@ -22,9 +22,9 @@ const MovieSearch = () => {
                     to be done and whos working on what.
                 </p>
                 <p className="project-description">
-                    The repository for this project is not owned by me and is set to private however I have taken out some of the components and actions ive worked
-                    on and put them in a 
-                    <a className="project-link" href="https://github.com/jakehowlett93/movie-search"> repository here.</a>
+                    Alongside this project I have been working my way through harvards introduction to computer science class (CS50) online and i'm about half way through. 
+                    I started the course as I believe knowing some computer science and what is happening at a lower level in my code will make me a better programmer, it's
+                    also fascinating to learn about.
                 </p>
                 
 
@@ -33,4 +33,4 @@ const MovieSearch = () => {
     )
 }
 
-export default MovieSearch;
+export default CurrentProject;

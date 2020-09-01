@@ -8,7 +8,7 @@ const CurrentProjectCard = () => { //gotta change card-title to project-title in
                 <div className="card-info">
                     <div className="card-circle">
                         <h3 className="card-title extra-padding">Current <br/> Project</h3>
-                        <p className="card-subtitle">React CSS</p>
+                        <p className="card-subtitle">React Computer science</p>
                     </div>
                 </div>
                 <img className="card-image" src={ require("../../../assets/current-project-thumbnail.png") } alt="current Project" />
